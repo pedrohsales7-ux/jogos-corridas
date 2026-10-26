@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home-Overllord</title>
+
+    <style>
+        body{
+
+            margin: 0;
+            font-family: Arial,  sans-serif;
+            background-color: #121212;
+            color:white}
+
+            header{
+
+                background-color: #1e1e1e;
+                padding: 20px;
+                text-align: center;
+                border-bottom: 3px solid #00fe00
+
+            }
+
+            header h1{
+                color: #00fe00;
+            }
+
+            nav{
+
+                text-align: center;
+                padding: 15px;
+            }
+
+            nav a{
+
+                color: white;
+                text-decoration:none;
+                margin: 15px;
+                font-weight: bold;  
+
+
+            }
+
+            nav a:hover{
+
+                color: #00fe00;
+            }
+
+            .banner{
+
+                text-align: center;
+                padding: 40px;
+            }
+
+            .banner h2{
+
+                color:#00ff99;
+            }
+
+            .jogos{
+
+                display: flex;
+                justify-content: center;
+                gap: 20px;
+                flex-wrap: wrap;
+                padding: 20px;
+            }
+
+            .card{
+                background-color: #1e1e1e;
+                width: 250px;   
+                padding: 20px;  
+                border-radius: 10px;    
+                text-align: center;
+            }
+
+            .card img{
+                width:100%;
+                border-radius:10px;
+            }
+            .card h3{
+
+                color:#00fe00
+            }
+
+             .card:hover{
+
+              transform: scale(1 ,1.1);
+             }
+
+             footer{
+
+                text-align: center;
+                padding: 20px;
+                margin-top: 30px;
+                background-attachment: #1e1e1e;
+                border-top: 1px solid #00fe00
+             }
+
+
+    
+
+        
+
+    </style>
+</head>
+<body>
+
+    <header>
+
+        <h1> 👾 Overllord </h1>
+    </header>
+
+    <nav>
+
+        <a href="#">Início</a>
+        <a href="#">Jogos</a>
+        <a href="#">Ranking</a>
+        <a href="#">Sair</a>
+
+    </nav>
+
+    <section class="banner">
+
+    <h2>Bem-Vindo a Plataforma </h2>
+    <p> Descubra novos jogos e divirta-se com seus amigos</p>
+
+    </section>
+
+    <section class="jogos">
+
+        <div class="card">
+
+            <img src="./img/forza.jpg" alt="jogo de corrida">
+            <h3> Forza 6</h3>
+            <p>Corridas emocionates e graficos lindos</p>
+        </div>
+
+         <div class="card">
+
+            <img src="./img/elder-ring.jpg" alt="jogo magico">
+            <h3> Elder Ring</h3>
+            <p>Um mundo magico e desafiador</p>
+        </div>
+
+         <div class="card">
+
+            <img src="./img/starfild.jpg" alt="jogo no espaço">
+            <h3> Starfild</h3>
+            <p> Explore o espaço inteiro</p>
+        </div>
+    </section>
+
+
+    <footer>
+
+        &copy; Overllord 2026
+    </footer>
+    
+</body>
+</html>
